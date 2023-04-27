@@ -1,0 +1,13 @@
+python
+import os
+
+# Define project root directory
+PROJECT_ROOT = os.getcwd()
+
+# Define the file path
+file_path = os.path.join(PROJECT_ROOT, 'data', 'processed', 'processed_data.txt')
+
+# Open the file in write mode
+with open(file_path, 'w') as f:
+    f.write('Hello World\n')
+    f.write('This is a sample data\n')
