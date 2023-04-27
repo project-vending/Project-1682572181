@@ -1,0 +1,10 @@
+
+import os
+
+# Define project root directory
+PROJECT_ROOT = os.getcwd()
+RAW_DATA_FILE = os.path.join(PROJECT_ROOT, 'data', 'streaming', 'raw_data.txt')
+
+# Create empty raw data file
+with open(RAW_DATA_FILE, 'w') as f:
+    pass
